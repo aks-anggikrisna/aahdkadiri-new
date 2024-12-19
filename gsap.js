@@ -1,6 +1,9 @@
 
-<><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script></>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
 
+<script>
 function isDesktopView() {
   return window.innerWidth >= 300; // Modify 992 to set the breakpoint at which you want the animation to apply.
 }
@@ -202,3 +205,4 @@ function initMenu(){
 document.addEventListener("DOMContentLoaded",()=>{
   initMenu()
 })
+</script>
